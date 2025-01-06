@@ -127,3 +127,75 @@ header {
     margin-top: 10px; /* Spacing between the image and text */
     font-size: 18px;
 }
+
+/* Locations Section */
+#locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: seashell;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.locations-container h2 {
+    font-size: 36px; /* Adjust the size for the main heading */
+    margin-bottom: 15px;
+}
+
+.locations-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between location boxes */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.location-item {
+    width: 300px; /* Set width for each location card */
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners for cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    opacity: 1; /* Ensure the card is fully visible */
+}
+
+.location-item h3 {
+    font-size: 24px; /* Heading for each location */
+    margin-bottom: 15px; /* Space between title and text */
+}
+
+.location-item p {
+    font-size: 16px; /* Text size for address details */
+    line-height: 1.6; /* Adds spacing between lines */
+    margin: 0; /* Remove extra margins */
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    color: seashell;
+    padding: 20px 50px; /* Adjust top/bottom and left/right spacing */
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.footer-content h5 {
+    font-size: 16px; /* Contact details font size */
+    font-weight: normal; /* Normal font weight for subtlety */
+    margin: 5px 0; /* Small vertical spacing between contact details */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Space above the copyright section */
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Smaller font for copyright */
+}
