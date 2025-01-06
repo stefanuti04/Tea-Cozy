@@ -10,6 +10,7 @@ body {
     color: seashell;
     opacity: 0.9;
     align-content: center;
+    background-color: black;
 }
 
 header {
@@ -80,4 +81,49 @@ header {
 .mission-container h4 {
     font-size: 18px; /* Adjust font size for the subtitle */
     font-weight: bold;
+}
+
+/* Tea of the Month Section */
+#tea-of-the-month {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    padding: 50px 0; /* Adds spacing above and below the section */
+}
+
+.tea-container h2 {
+    font-size: 36px; /* Main heading size */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.tea-container h3 {
+    font-size: 24px; /* Subheading size */
+    margin-bottom: 30px; /* Spacing below the subheading */
+    font-weight: normal;
+}
+
+.tea-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between the items */
+    max-width: 1000px; /* Centers and limits the grid's width */
+    margin: 0 auto; /* Center-aligns the grid */
+}
+
+.tea-item {
+    width: 300px; /* Each item’s width */
+    text-align: center;
+}
+
+.tea-item img {
+    width: 100%; /* Ensures the image fills the container */
+    height: 200px; /* Fixes the height as shown in the image */
+    object-fit: cover; /* Ensures the image fits nicely */
+    border: 1px solid seashell; /* Optional: Adds a border to the image */
+}
+
+.tea-item p {
+    margin-top: 10px; /* Spacing between the image and text */
+    font-size: 18px;
 }
